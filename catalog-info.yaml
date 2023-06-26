@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "mikes-bitcoin-miner-xxl"
+  annotations:
+    "humanitec.com/orgId": "htc-demo-13"
+    "humanitec.com/appId": "mikes-bitcoin-miner-xxl"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
